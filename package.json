@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-cloudinary-folderoptions",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "an extension of the strapi-provider-upload-cloudinary that allows for a default_folder option in the config as well as using the file name to define folder structure.",
   "keywords": [
     "upload",
