@@ -1,0 +1,49 @@
+{
+  "name": "strapi-provider-upload-cloudinary-folderoptions",
+  "version": "0.0.1",
+  "description": "an extension of the strapi-provider-upload-cloudinary that allows for a default_folder option in the config as well as using the file name to define folder structure.",
+  "keywords": [
+    "upload",
+    "cloudinary",
+    "strapi"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "cloudinary": "^1.14.0",
+    "into-stream": "^5.1.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "email": "jared@verdecircle.com",
+    "name": "Plagarized by Jared Tracy",
+    "url": "https://github.com/jaredude"
+  },
+  "maintainers": [
+    {
+      "name": "Jared Tracy",
+      "email": "jared@verdecircle.com",
+      "url": "http://verdecircle.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VerdeCircle/strapi-provider-upload-cloudinary-folderoptions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VerdeCircle/strapi-provider-upload-cloudinary-folderoptions/issues"
+  },
+  "homepage": "https://github.com/VerdeCircle/strapi-provider-upload-cloudinary-folderoptions#readme",
+  "engines": {
+    "node": ">=10.10.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
