@@ -13,9 +13,9 @@ default_folder option has been added to the config to allow for uploading to a s
 The file name can also be used to specify a folder structure that remains under the default_folder option or overrides the default_folder options.
 
 For example:
-+ example_app.png could be uploaded to the /[default_folder]/logos/apps cloudinary folder by having a default_folder option set and changing the file name to logos/apps/example_app.png
++ example_app.png could be uploaded to /[default_folder]/logos/apps cloudinary folder by having a default_folder option set and changing the file name to logos/apps/example_app.png
 
-+ If you want to override the default_folder options, change the file name to /logos/apps/example_app.png. This would place the file under a cloudinary folder structure of /logos/apps instead of /[default_folder]/logos/apps
++ If you want to override the default_folder options at the time of upload, change the file name to /logos/apps/example_app.png. This would upload the file under a cloudinary folder structure of /logos/apps instead of /[default_folder]/logos/apps
 
 While Cloudinary can handle all the image size/cropping/quality/etc for you so that you don't have to turn on the "Enable responsive friendly upload" on Strapi, this will also take into consideration the different default sizing Strapi performs and place them in subfolder accordingly (e.g. thumbnail, small, medium, large)
 
@@ -31,7 +31,7 @@ module.exports = ({ env }) => ({
       cloud_name: env('CLOUDINARY_NAME'),
       api_key: env('CLOUDINARY_KEY'),
       api_secret: env('CLOUDINARY_SECRET'),
-      default_folder: eng('CLOUDINARY_DEFAULT_FOLDER'),
+      default_folder: env('CLOUDINARY_DEFAULT_FOLDER'),
     },
   },
   // ...
