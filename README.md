@@ -42,7 +42,11 @@ And the result is...
 **default_folder (which is set in .env file) created on cloudinary root with file specific sub folders as well**
 ![default_folder option](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346106/strapi-provider-upload-cloudinary-folderoptions/cloudinary-strapi-upload-default_folder-elements_rk5uoc.png)
 
+**Upload to default_folder only**
+![Strapi Upload to default_folder only](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596347825/strapi-provider-upload-cloudinary-folderoptions/strapi-upload-default_folder-nonamechange_rlpf5e.png)
 
+**Files placed in root of default_folder on Cloudinary**
+![Root of default_folder](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596347831/strapi-provider-upload-cloudinary-folderoptions/cloudinary-strapi-upload-default_folder-nonamechange-elements_yabslo.png)
 
 `./config/plugins.js`
 
