@@ -19,6 +19,30 @@ For example:
 
 While Cloudinary can handle all the image size/cropping/quality/etc for you so that you don't have to turn on the "Enable responsive friendly upload" on Strapi, this will also take into consideration the different default sizing Strapi performs and place them in subfolder accordingly (e.g. thumbnail, small, medium, large)
 
+**Starting Cloudinary**
+![Starting Cloudinary](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346107/strapi-provider-upload-cloudinary-folderoptions/cloudinary-starting_zepcmj.png)
+
+**Upload files to root by adding /logos/apps/ to the file name**
+![Upload Asset in Strapi with desired folder strcuture](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346106/strapi-provider-upload-cloudinary-folderoptions/strapi-upload-root_gmpjk6.png)
+
+And the result is...
+**New Folder in Cloudinary root**
+![New Folder in Cloudinary root](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346107/strapi-provider-upload-cloudinary-folderoptions/cloudinary-strapi-upload-root_xtahw3.png)
+
+**Files in directory structure specified**
+![Files in directory structure specified](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346106/strapi-provider-upload-cloudinary-folderoptions/cloudinary-strapi-upload-root-elements_smpipr.png)
+^^^ In this case, we have "Enable responsive friendly upload" set to on in Strapi>Settings>Media Library
+
+![Strapi Media Library Settings](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346752/strapi-provider-upload-cloudinary-folderoptions/strapi-settings-medialibrary_si9lok.png)
+
+**Upload files using the default_folder option AND even adding your own folder structure**
+![Strapi Asset Upload default_folder & additional folder structure](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346107/strapi-provider-upload-cloudinary-folderoptions/strapi-upload-default_folder_q23inl.png)
+
+And the result is...
+**default_folder (which is set in .env file) created on cloudinary root with file specific sub folders as well**
+![default_folder option](https://res.cloudinary.com/dtyevsyrr/image/upload/f_auto,q_auto/v1596346106/strapi-provider-upload-cloudinary-folderoptions/cloudinary-strapi-upload-default_folder-elements_rk5uoc.png)
+
+
 
 `./config/plugins.js`
 
